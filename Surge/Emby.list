@@ -43,6 +43,8 @@ DOMAIN-SUFFIX,cf.freetz.top
 DOMAIN-SUFFIX,kr.freetz.top
 #Emby-CC公益服
 DOMAIN-SUFFIX,cc.ccemby.tk
+#Peach公益服
+DOMAIN-SUFFIX,embymv.tk
 #Emby-GuGu Media
 DOMAIN-SUFFIX,main.gugumedia.link
 DOMAIN-SUFFIX,pro.gugumedia.link
