@@ -1,0 +1,126 @@
+# 白糖用EMBY分流
+# 本地分流规则(相同规则下，本地规则将覆盖远程规则，优先生效)↓↓↓↓↓↓↓↓↓
+#
+# 翻译解释Direct直连, Proxy代理, Reject拒绝
+# HOST（完整域名匹配，举例limbopro.com）
+# HOST-SUFFIX（域名后缀匹配）
+# HOST-KEYWORD（域名关键字匹配，举例关键词limboppro）
+# USER-AGENT（浏览器用户代理匹配，举例*abc?）
+# IP-CIDR（无类别域间路由例如192.168.xx）
+# GEOIP（GeoIP数据库IP匹配，参数填US，则为美国 ip 数据库匹配，所有美国IP匹配该规则则执行）
+
+
+# 本地分流规则(相同规则下，本地规则将覆盖远程规则，优先生效)↓↓↓↓↓↓↓↓↓
+
+# > 常用网址分流
+host-suffix, goodme.pro, direct
+host-suffix, yuchen.tonghuaios, 全球加速
+
+# > 原神成就网址分流
+host-suffix, paimon.moe, 香港节点
+
+# > 原神抽卡抓包的分流
+host-suffix, webstatic.mihoyo.com, direct
+host-suffix, webstatic-sea.hoyoverse.com, direct
+host-suffix, mihoyo.com, direct
+
+# > 一些比较容易忽视的分流
+host, ad.12306.cn, direct
+host, gg.caixin.com, direct
+host, sdkapp.uve.weibo.com, direct
+host-suffix, ucweb.com, direct
+host, ntb.lanjie100.com, reject
+host-suffix, kuwo.cn, direct
+host-suffix, u3.ucweb.com, reject
+
+# > Emby影视的分流
+#Emby-MisakaF
+host-suffix, misakaf.org, EMBY服务 
+host-suffix, 102.223.180.108, EMBY服务
+host-suffix, push-kr.misakaf.org, EMBY服务
+#Emby-PiliPili
+host-suffix, pilipiliultra.top, EMBY服务 
+host-suffix, emby.pilipiliultra, EMBY服务
+host-suffix, pilipili.mikuu.link, EMBY服务
+#Emby-纸片人
+host-suffix, embyplus.org, EMBY服务
+#Emby-infinityfly
+host-suffix, aws-sg.669998.xyz, EMBY服务
+host-suffix, infinityfly.top, EMBY服务
+host-suffix, nc2.infinityfly.top, EMBY服务
+#Emby-终点站
+host-suffix, pub3.emby.wtf, EMBY服务
+#Emby-鹅服
+host-suffix, tv.the98.ltd, EMBY服务
+#Emby-卷毛鼠公益服
+host-suffix, cf.jmsooo.com, EMBY服务 
+#Emby-MJJ
+host-suffix, de.mjjemby.org, EMBY服务
+host-suffix, sg01.mjjemby.org, EMBY服务
+host-suffix, cf.mjjemby.org, EMBY服务
+#Emby-Magic Cloud
+host-suffix, emby.freetz.top, EMBY服务
+host-suffix, cf.freetz.top, EMBY服务
+host-suffix, kr.freetz.top, EMBY服务
+#Emby-CC公益服
+host-suffix, cc.ccemby.tk, EMBY服务
+#Emby-GuGu Media
+host-suffix, main.gugumedia.link, EMBY服务
+host-suffix, pro.gugumedia.link, EMBY服务
+host-suffix, front.gugumedia.link, EMBY服务
+#Emby-loser
+host-suffix, cf.xmsl.org, EMBY服务
+host-suffix, free.xmsl.org, EMBY服务
+host-suffix, line.xmsl.org, EMBY服务
+#Emby-loser求片地址
+host-suffix, up.xmsl.org, EMBY服务
+#Emby-loser公费
+host-suffix, line.xmsl.org, EMBY服务
+host-suffix, cfde.xmsl.org, EMBY服务
+host-suffix, pm.xmsl.org, EMBY服务
+#Emby-Club
+host-suffix, emby.kim, EMBY服务
+#Emby-SYN Streaming KFC
+host-suffix, ntrrr.am.sb, EMBY服务
+#Emby-无敌风火轮
+host-suffix, ycxdy.top, EMBY服务
+host-suffix, emby1.ycxdy.top, EMBY服务
+host-suffix, emby2.ycxdy.top, EMBY服务
+host-suffix, emby3.ycxdy.top, EMBY服务
+host-suffix, emby4.ycxdy.top, EMBY服务
+host-suffix, emby5.ycxdy.top, EMBY服务
+host-suffix, emby6.ycxdy.top, EMBY服务
+#Emby-custom
+host-suffix, media.nijigem.by, EMBY服务
+#Emby-Paul_电报
+host-suffix, cf.imetyou.top, EMBY服务
+host-suffix, emby.imetyou.top, EMBY服务
+host-suffix, fk.imetyou.top, EMBY服务
+#Emby-酷安
+host-suffix, 94.16.122.183, EMBY服务
+host-suffix, kuan2.yutron.eu.org, EMBY服务
+#Emby-nyamedia
+host-suffix, emby.bangumi.ca, EMBY服务
+#Emby-TreeDiagram
+host-suffix, 789.123456.al, EMBY服务
+#Emby-Temby
+host-suffix, temby.285286.xyz, EMBY服务
+#Emby-Singularity
+host-suffix, singularity.bagpipe.moe, EMBY服务
+#Emby-Lend
+host-suffix, emby.lcloud.wiki, EMBY服务
+#Emby-Ciji
+host-suffix, sr.809688.xyz, EMBY服务
+#Emby-NMEmby
+host-suffix, film.ohhhh.org, EMBY服务
+#Emby-叔服
+host-suffix, emby3.mcjoker.xyz, EMBY服务
+#Emby-儿童服
+host-suffix, free.poloemby.xyz, EMBY服务
+#Emby-Marmot
+host-suffix, v.20120714.xyz, EMBY服务
+
+# > Emby音乐的分流
+host, chunmusic.imetyou.top, EMBY服务
+host, music.imetyou.top, EMBY服务
+host, cfmusic.imetyou.top, EMBY服务
