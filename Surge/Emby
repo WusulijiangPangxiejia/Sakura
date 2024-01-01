@@ -8,10 +8,7 @@
 # USER-AGENT（浏览器用户代理匹配，举例*abc?）
 # IP-CIDR（无类别域间路由例如192.168.xx）
 # GEOIP（GeoIP数据库IP匹配，参数填US，则为美国 ip 数据库匹配，所有美国IP匹配该规则则执行）
-
-
 # 本地分流规则(相同规则下，本地规则将覆盖远程规则，优先生效)↓↓↓↓↓↓↓↓↓
-
 # > Emby影视的分流
 #Emby-MisakaF
 host-suffix,misakaf.org 
@@ -98,7 +95,6 @@ host-suffix,emby3.mcjoker.xyz
 host-suffix,free.poloemby.xyz
 #Emby-Marmot
 host-suffix,v.20120714.xyz
-
 # > Emby音乐的分流
 host,chunmusic.imetyou.top
 host,music.imetyou.top
