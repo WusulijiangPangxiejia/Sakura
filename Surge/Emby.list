@@ -62,6 +62,7 @@ DOMAIN-SUFFIX,pm.xmsl.org
 DOMAIN-SUFFIX,emby.kim
 #Emby-SYN Streaming KFC
 DOMAIN-SUFFIX,ntrrr.am.sb
+DOMAIN-SUFFIX,stream.ntrrr.top
 #Emby-无敌风火轮
 DOMAIN-SUFFIX,ycxdy.top
 DOMAIN-SUFFIX,emby1.ycxdy.top
@@ -99,8 +100,11 @@ DOMAIN-SUFFIX,emby3.mcjoker.xyz
 DOMAIN-SUFFIX,free.poloemby.xyz
 #Emby-Marmot
 DOMAIN-SUFFIX,v.20120714.xyz
+#Emby-卡戎
+DOMAIN-SUFFIX,play.charontv.com
 
 # > Emby音乐的分流
+#Paul-电报服
 DOMAIN-SUFFIX,chunmusic.imetyou.top
 DOMAIN-SUFFIX,music.imetyou.top
 DOMAIN-SUFFIX,cfmusic.imetyou.top
