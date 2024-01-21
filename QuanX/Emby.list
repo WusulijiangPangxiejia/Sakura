@@ -48,6 +48,8 @@ host-suffix,embymv.tk,Emby
 host-suffix,main.gugumedia.link,Emby
 host-suffix,pro.gugumedia.link,Emby
 host-suffix,front.gugumedia.link,Emby
+#Emby-GuGu(守候机场服)
+host-suffix,emby.cn2gias.uk,Emby
 #Emby-loser
 host-suffix,cf.xmsl.org,Emby
 host-suffix,free.xmsl.org,Emby
