@@ -158,6 +158,9 @@ host-suffix,direct.lyrebirdemby.com,Emby
 host-suffix,emby.jzq.lol,Emby
 host-suffix,emby.cbcb.lol,Emby
 
+#Emby-尘烬
+host-suffix,free.emby.eu.org,Emby
+
 
 # > ↓↓↓↓↓↓↓↓↓（Emby机场服的分流）↓↓↓↓↓↓↓↓↓
 #Emby-HXD（好鸭机场服）
@@ -170,6 +173,9 @@ host-suffix,e.niceduck.me,Emby
 
 #Emby-GuGu(守候机场服)
 host-suffix,emby.cn2gias.uk,Emby
+
+#Emby-JMS（Ash机场服）
+host-suffix,tv.ash.yt,Emby
 
 
 # > ↓↓↓↓↓↓↓↓↓（Emby音乐的分流）↓↓↓↓↓↓↓↓↓
