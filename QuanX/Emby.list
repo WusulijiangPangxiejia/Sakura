@@ -22,9 +22,13 @@ host-suffix,push-kr.misakaf.org,Emby
 host-suffix,emby.pilipiliultra.top,Emby
 host-suffix,emby.pilipiliultra.com,Emby
 host-suffix,pilipili.mikuu.link,Emby
+# > 新增测试
+host-suffix,push.pilipiliultra.com,Emby
 
 #Emby-纸片人
 host-suffix,embyplus.org,Emby
+# > 新增测试
+host-suffix,gd.9521732.xyz,Emby
 
 #Emby-infinityfly
 host-suffix,aws-sg.669998.xyz,Emby
@@ -55,9 +59,14 @@ host-suffix,kr.freetz.top,Emby
 
 #Emby-CC公益服
 host-suffix,cc.ccemby.tk,Emby
+# > 新增测试
+host-suffix,dl.carryz.net,Emby
 
 #Emby-Peach公益服
 host-suffix,embymv.tk,Emby
+# > 新增测试
+host-suffix,141.147.166.107,Emby
+host-suffix,193.123.232.141,Emby
 
 #Emby-GuGu Media
 host-suffix,main.gugumedia.link,Emby
@@ -68,6 +77,8 @@ host-suffix,front.gugumedia.link,Emby
 host-suffix,cf.xmsl.org,Emby
 host-suffix,free.xmsl.org,Emby
 host-suffix,line.xmsl.org,Emby
+# > 新增测试
+host-suffix,cfhd.xmsl.org,Emby
 #Emby-loser求片地址
 host-suffix,up.xmsl.org,Emby
 
@@ -117,6 +128,8 @@ host-suffix,789.123456.al,Emby
 #Emby-Temby
 host-suffix,temby.285286.xyz,Emby
 host-suffix,temby4837.285286.xyz,Emby
+# > 新增测试
+host-suffix,74.50.80.23,Emby
 
 #Emby-Singularity（新瓜）
 host-suffix,singularity.bagpipe.moe,Emby
