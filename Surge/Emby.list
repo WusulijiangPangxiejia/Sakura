@@ -158,6 +158,10 @@ DOMAIN-SUFFIX,direct.lyrebirdemby.com
 DOMAIN-SUFFIX,emby.jzq.lol
 DOMAIN-SUFFIX,emby.cbcb.lol
 
+#Emby-尘烬
+DOMAIN-SUFFIX,free.emby.eu.org
+
+
 # > ↓↓↓↓↓↓↓↓↓（Emby机场服的分流）↓↓↓↓↓↓↓↓↓
 #Emby-HXD（好鸭机场服）
 DOMAIN-SUFFIX,bili.bili.rip
@@ -169,6 +173,10 @@ DOMAIN-SUFFIX,e.niceduck.me
 
 #Emby-GuGu(守候机场服)
 DOMAIN-SUFFIX,emby.cn2gias.uk
+
+#Emby-JMS（Ash机场服）
+DOMAIN-SUFFIX,tv.ash.yt
+
 
 # > ↓↓↓↓↓↓↓↓↓（Emby音乐的分流）↓↓↓↓↓↓↓↓↓
 #Paul-电报服
