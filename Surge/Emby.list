@@ -68,6 +68,8 @@ DOMAIN-SUFFIX,front.gugumedia.link
 DOMAIN-SUFFIX,cf.xmsl.org
 DOMAIN-SUFFIX,free.xmsl.org
 DOMAIN-SUFFIX,line.xmsl.org
+# > 新增测试
+DOMAIN-SUFFIX,cfhd.xmsl.org
 #Emby-loser求片地址
 DOMAIN-SUFFIX,up.xmsl.org
 
@@ -117,6 +119,8 @@ DOMAIN-SUFFIX,789.123456.al
 #Emby-Temby
 DOMAIN-SUFFIX,temby.285286.xyz
 DOMAIN-SUFFIX,temby4837.285286.xyz.top
+# > 新增测试
+DOMAIN-SUFFIX,74.50.80.23
 
 #Emby-Singularity（新瓜）
 DOMAIN-SUFFIX,singularity.bagpipe.moe
