@@ -23,7 +23,7 @@ DOMAIN-SUFFIX,emby.pilipiliultra.top 
 DOMAIN-SUFFIX,emby.pilipiliultra.com
 DOMAIN-SUFFIX,pilipili.mikuu.link
 # > 新增测试
-DOMAIN-SUFFIX,pilipiliultra
+DOMAIN-SUFFIX,push.pilipiliultra.com
 
 #Emby-纸片人
 DOMAIN-SUFFIX,embyplus.org
@@ -57,9 +57,13 @@ DOMAIN-SUFFIX,kr.freetz.top
 
 #Emby-CC公益服
 DOMAIN-SUFFIX,cc.ccemby.tk
+# > 新增测试
+DOMAIN-SUFFIX,dl.carryz.net
 
 #Emby-Peach公益服
 DOMAIN-SUFFIX,embymv.tk
+# > 新增测试
+DOMAIN-SUFFIX,141.147.166.107
 
 #Emby-GuGu Media
 DOMAIN-SUFFIX,main.gugumedia.link
