@@ -56,7 +56,7 @@ host-suffix,kr.freetz.top,Emby
 #Emby-CC公益服
 host-suffix,cc.ccemby.tk,Emby
 
-#Peach公益服
+#Emby-Peach公益服
 host-suffix,embymv.tk,Emby
 
 #Emby-GuGu Media
@@ -157,6 +157,7 @@ host-suffix,direct.lyrebirdemby.com,Emby
 #Emby-CbCb（不纯洁）
 host-suffix,emby.jzq.lol,Emby
 host-suffix,emby.cbcb.lol,Emby
+
 
 # > ↓↓↓↓↓↓↓↓↓（Emby机场服的分流）↓↓↓↓↓↓↓↓↓
 #Emby-HXD（好鸭机场服）
