@@ -11,7 +11,7 @@
 
 # 本地分流规则(相同规则下，本地规则将覆盖远程规则，优先生效)↓↓↓↓↓↓↓↓↓
 
-# > Emby影视的分流
+# > ↓↓↓↓↓↓↓↓↓（Emby影视的分流）↓↓↓↓↓↓↓↓↓
 #Emby-MisakaF
 host-suffix,misakaf.org,Emby
 host-suffix,emby.misakaf.org,Emby
@@ -63,9 +63,6 @@ host-suffix,embymv.tk,Emby
 host-suffix,main.gugumedia.link,Emby
 host-suffix,pro.gugumedia.link,Emby
 host-suffix,front.gugumedia.link,Emby
-
-#Emby-GuGu(守候机场服)
-host-suffix,emby.cn2gias.uk,Emby
 
 #Emby-loser
 host-suffix,cf.xmsl.org,Emby
@@ -149,14 +146,6 @@ host-suffix,v.20120714.xyz,Emby
 #Emby-卡戎
 host-suffix,play.charontv.com,Emby
 
-#Emby-HXD（好鸭机场服）
-host-suffix,bili.bili.rip,Emby
-host-suffix,cdn.bili.rip,Emby
-host-suffix,cf.bili.rip,Emby
-
-#Emby-JMS（好鸭机场服）
-host-suffix,e.niceduck.me,Emby
-
 #Emby-MICU Cloud Media
 host-suffix,tv.micu.hk,Emby
 
@@ -169,7 +158,20 @@ host-suffix,direct.lyrebirdemby.com,Emby
 host-suffix,emby.jzq.lol,Emby
 host-suffix,emby.cbcb.lol,Emby
 
-# > Emby音乐的分流
+# > ↓↓↓↓↓↓↓↓↓（Emby机场服的分流）↓↓↓↓↓↓↓↓↓
+#Emby-HXD（好鸭机场服）
+host-suffix,bili.bili.rip,Emby
+host-suffix,cdn.bili.rip,Emby
+host-suffix,cf.bili.rip,Emby
+
+#Emby-JMS（好鸭机场服）
+host-suffix,e.niceduck.me,Emby
+
+#Emby-GuGu(守候机场服)
+host-suffix,emby.cn2gias.uk,Emby
+
+
+# > ↓↓↓↓↓↓↓↓↓（Emby音乐的分流）↓↓↓↓↓↓↓↓↓
 #Paul-电报服
 host,chunmusic.imetyou.top,Emby
 host,music.imetyou.top,Emby
