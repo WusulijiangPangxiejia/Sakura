@@ -22,6 +22,8 @@ DOMAIN-SUFFIX,push-kr.misakaf.org
 DOMAIN-SUFFIX,emby.pilipiliultra.top 
 DOMAIN-SUFFIX,emby.pilipiliultra.com
 DOMAIN-SUFFIX,pilipili.mikuu.link
+# > 新增测试
+DOMAIN-SUFFIX,pilipiliultra
 
 #Emby-纸片人
 DOMAIN-SUFFIX,embyplus.org
