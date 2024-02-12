@@ -179,6 +179,9 @@ host-suffix,film.reddust.link,Emby
 # > 新增测试
 host-suffix,go3.reddust.link,Emby
 
+#Emby-Misty
+host-suffix,misty.cx,Emby
+
 
 # > ↓↓↓↓↓↓↓↓↓（Emby机场服的分流）↓↓↓↓↓↓↓↓↓
 #Emby-HXD（好鸭机场服）
@@ -194,6 +197,9 @@ host-suffix,emby.cn2gias.uk,Emby
 
 #Emby-JMS（Ash机场服）
 host-suffix,tv.ash.yt,Emby
+
+#Emby-水母（蛋挞机场服）
+host-suffix,emby.eggtartcloud.shop,Emby
 
 
 # > ↓↓↓↓↓↓↓↓↓（Emby音乐的分流）↓↓↓↓↓↓↓↓↓
