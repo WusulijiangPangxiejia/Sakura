@@ -64,6 +64,7 @@ DOMAIN-SUFFIX,dl.carryz.net
 
 #Emby-Peach公益服
 DOMAIN-SUFFIX,embymv.tk
+DOMAIN-SUFFIX,peachmv.me
 # > 新增测试
 DOMAIN-SUFFIX,141.147.166.107
 DOMAIN-SUFFIX,193.123.232.141
@@ -182,6 +183,11 @@ DOMAIN-SUFFIX,go3.reddust.link
 #Emby-Misty
 DOMAIN-SUFFIX,misty.cx
 
+Emby-MICU Cloud Media（股东会）
+DOMAIN-SUFFIX,tv.micu.hk
+
+Emby-Akuai
+DOMAIN-SUFFIX,biekan.lol
 
 # > ↓↓↓↓↓↓↓↓↓（Emby机场服的分流）↓↓↓↓↓↓↓↓↓
 #Emby-HXD（好鸭机场服）
@@ -200,6 +206,7 @@ DOMAIN-SUFFIX,tv.ash.yt
 
 #Emby-水母（蛋挞机场服）
 DOMAIN-SUFFIX,emby.eggtartcloud.shop
+DOMAIN-SUFFIX,vip3.jellyfin.asia
 
 
 # > ↓↓↓↓↓↓↓↓↓（Emby音乐的分流）↓↓↓↓↓↓↓↓↓
