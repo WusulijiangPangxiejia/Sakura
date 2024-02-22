@@ -64,6 +64,7 @@ host-suffix,dl.carryz.net,Emby
 
 #Emby-Peach公益服
 host-suffix,embymv.tk,Emby
+host-suffix,peachmv.me,Emby
 # > 新增测试
 host-suffix,141.147.166.107,Emby
 host-suffix,193.123.232.141,Emby
@@ -182,6 +183,12 @@ host-suffix,go3.reddust.link,Emby
 #Emby-Misty
 host-suffix,misty.cx,Emby
 
+#Emby-Akuai
+host-suffix,biekan.lol,Emby
+
+#Emby-V6私服
+host-suffix,v6.cybera.top,Emby
+
 
 # > ↓↓↓↓↓↓↓↓↓（Emby机场服的分流）↓↓↓↓↓↓↓↓↓
 #Emby-HXD（好鸭机场服）
@@ -200,6 +207,7 @@ host-suffix,tv.ash.yt,Emby
 
 #Emby-水母（蛋挞机场服）
 host-suffix,emby.eggtartcloud.shop,Emby
+host-suffix,vip3.jellyfin.asia,Emby
 
 
 # > ↓↓↓↓↓↓↓↓↓（Emby音乐的分流）↓↓↓↓↓↓↓↓↓
