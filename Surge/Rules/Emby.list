@@ -183,11 +183,12 @@ DOMAIN-SUFFIX,go3.reddust.link
 #Emby-Misty
 DOMAIN-SUFFIX,misty.cx
 
-Emby-MICU Cloud Media（股东会）
-DOMAIN-SUFFIX,tv.micu.hk
-
 Emby-Akuai
 DOMAIN-SUFFIX,biekan.lol
+
+#Emby-V6私服
+DOMAIN-SUFFIX,v6.cybera.top
+
 
 # > ↓↓↓↓↓↓↓↓↓（Emby机场服的分流）↓↓↓↓↓↓↓↓↓
 #Emby-HXD（好鸭机场服）
