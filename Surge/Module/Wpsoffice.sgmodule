@@ -1,0 +1,8 @@
+#!name=WPS解锁会员@ddgksf2013
+#!desc=解除会员限制，使用会员功能
+
+[Script]
+WPSOffice = type=http-response, pattern=^https:\/\/vas\.wps\.cn\/query\/api\/v1\/list_purchase_info, script-path=https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/WPSOffice.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% vas.wps.cn
