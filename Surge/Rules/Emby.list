@@ -222,6 +222,8 @@ DOMAIN-SUFFIX,e.niceduck.me
 
 #Emby-loser（好鸭机场服）
 DOMAIN-SUFFIX,cf.niceduck.lol
+# > 新增测试
+DOMAIN-SUFFIX,vi.niceduck.lol
 
 #Emby-GuGu(守候机场服)
 DOMAIN-SUFFIX,emby.cn2gias.uk
