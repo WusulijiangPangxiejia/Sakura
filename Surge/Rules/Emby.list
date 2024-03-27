@@ -62,6 +62,9 @@ DOMAIN-SUFFIX,cc.ccemby.tk
 # > 新增测试
 DOMAIN-SUFFIX,dl.carryz.net
 
+#Emby-PandaTV
+DOMAIN-SUFFIX,emby.at
+
 #Emby-Peach公益服
 DOMAIN-SUFFIX,embymv.tk
 DOMAIN-SUFFIX,peachmv.me
@@ -190,6 +193,21 @@ DOMAIN-SUFFIX,biekan.lol
 
 #Emby-V6私服
 DOMAIN-SUFFIX,v6.cybera.top
+
+#Emby-CherryTV
+DOMAIN-SUFFIX,cherrytv.one
+
+#Emby-白云
+DOMAIN-SUFFIX,emby.airpor.top
+
+#Emby-Apop
+DOMAIN-SUFFIX,api.apopcloud.me
+# > 新增测试
+#DOMAIN-SUFFIX,cn-beijing-data.aliyundrive.net
+
+#Emby-StarCat-Flare
+DOMAIN-SUFFIX,flarex.starcat.eu.org
+
 #更新2.23
 
 # > ↓↓↓↓↓↓↓↓↓（Emby机场服的分流）↓↓↓↓↓↓↓↓↓
@@ -200,6 +218,9 @@ DOMAIN-SUFFIX,cf.bili.rip
 
 #Emby-JMS（好鸭机场服）
 DOMAIN-SUFFIX,e.niceduck.me
+
+#Emby-loser（好鸭机场服）
+DOMAIN-SUFFIX,cf.niceduck.lol
 
 #Emby-GuGu(守候机场服)
 DOMAIN-SUFFIX,emby.cn2gias.uk
