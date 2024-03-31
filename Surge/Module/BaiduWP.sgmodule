@@ -1,5 +1,5 @@
-#!name=百度网盘会员
-#!desc=解除限速，实现会员速度@LnnFen
+#!name=百度网盘会员@LnnFen
+#!desc=解除限速，实现会员速度
 
 [Script]
 Pan = type=http-response, pattern=^https:\/\/d\.pcs\.baidu\.com\/rest\/2\.0\/pcs\/file\?, script-path=https://gist.githubusercontent.com/InnFen/c5c679081ec4c0a8e43a2ed02d298f31/raw/c529f9e3eac065ca7d167ecad123bee76a9357e5/Pan.js, requires-body=true, max-size=-1, timeout=60
