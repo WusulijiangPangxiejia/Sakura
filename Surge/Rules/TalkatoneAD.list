@@ -1,0 +1,15 @@
+# Talkatone去广告@baitang
+# 规则来源于
+# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+# Talkatone如果发现有剩余的广告，可以引用上面两个分流，自行排查（可以反馈给我，谢谢）
+
+DOMAIN-SUFFIX,gum.criteo.com
+DOMAIN-SUFFIX,ads.inmobi.com
+DOMAIN-SUFFIX,cdn2.inner-active.mobi
+DOMAIN-SUFFIX,sdk-dnt.ad.smaato.net
+DOMAIN-SUFFIX,sdk-events.inner-active.mobi
+DOMAIN-SUFFIX,ow.pubmatic.com
+DOMAIN-SUFFIX,bidder.criteo.com
+DOMAIN-SUFFIX,googleads.g.doubleclick-cn.net
+DOMAIN-SUFFIX,wv.inner-active.mobi
