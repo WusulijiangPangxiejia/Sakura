@@ -213,6 +213,8 @@ DOMAIN-SUFFIX,flarex.starcat.eu.org
 DOMAIN-SUFFIX,emby.carlos.trade
 DOMAIN-SUFFIX,sg.carlos.trade
 DOMAIN-SUFFIX,cf.carlos.trade
+# > 新增测试
+DOMAIN-SUFFIX,emby.carlos.trade
 
 #Emby-牢大的野兽餐厅
 DOMAIN-SUFFIX,emby-us-v4.mius.uk
