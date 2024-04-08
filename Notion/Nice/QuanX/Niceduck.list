@@ -5,3 +5,8 @@ host-suffix,cf.bili.rip,Emby
 
 #Emby-JMS（好鸭机场服）
 host-suffix,e.niceduck.me,Emby
+
+#Emby-loser（好鸭机场服）
+host-suffix,cf.niceduck.lol,Emby
+# > 新增测试
+host-suffix,vi.niceduck.lol,Emby
