@@ -34,6 +34,7 @@ DOMAIN-SUFFIX,gd.9521732.xyz
 #Emby-infinityfly
 DOMAIN-SUFFIX,aws-sg.669998.xyz
 DOMAIN-SUFFIX,infinityfly.top
+DOMAIN-SUFFIX,nc1.infinityfly.top
 DOMAIN-SUFFIX,nc2.infinityfly.top
 
 #Emby-终点站
@@ -219,6 +220,12 @@ DOMAIN-SUFFIX,emby-us-v4.mius.uk
 
 #Emby-搬服
 DOMAIN-SUFFIX,byg.955557.xyz
+DOMAIN-SUFFIX,cdn01.byg.955557.xyz
+DOMAIN-SUFFIX,cdn02.byg.955557.xyz
+DOMAIN-SUFFIX,cdn03.byg.955557.xyz
+DOMAIN-SUFFIX,cdn04.byg.955557.xyz
+DOMAIN-SUFFIX,cdn05.byg.955557.xyz
+DOMAIN-SUFFIX,cdn06.byg.955557.xyz
 
 #Emby-CC私服
 DOMAIN-SUFFIX,emby.i1cc.tech
@@ -229,8 +236,14 @@ DOMAIN-SUFFIX,dx.doooong.top
 #Emby-Nextcloud
 DOMAIN-SUFFIX,emby.ahfei.blog
 
+#Emby-观影欢乐园
+DOMAIN-SUFFIX,emby.slove.info
 
-#更新2.23 4.5
+#Emby-飞跃彩虹
+DOMAIN-SUFFIX,152.53.19.231
+
+
+#更新2.23 4.5 4.16
 
 # > ↓↓↓↓↓↓↓↓↓（Emby机场服的分流）↓↓↓↓↓↓↓↓↓
 #Emby-HXD（好鸭机场服）
