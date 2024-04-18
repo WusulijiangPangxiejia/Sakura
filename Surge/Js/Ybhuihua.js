@@ -2,7 +2,7 @@ const $ = new Env('会话切换');
 $.KEY_sessions = 'chavy_boxjs_sessions';
 $.KEY_curSessions = 'chavy_boxjs_cur_sessions';
 $.CFG_isSilent = $.getdata('CFG_BoxSwitcher_isSilent');
-const targetAppId = 'TESTFLIGHT-ACCOUNT';  // 仅切换这个应用的会话
+const targetAppId = 'TestFlightAccount';  // 仅切换这个应用的会话
 
 !(async () => {
   await execSwitch();
