@@ -2,10 +2,8 @@
 #!desc=流量信息/智能提醒/到期日期
 #!system=ios
 #!category=面板模块
-#!机场URL编码 https://www.urlencoder.org/zh
-#!面板图标 1、tornado&color=#DF4688 2、waveform&color=#EF6D20
-#!arguments=机场名称1:#, 订阅链接1:#Encode后的订阅链接, 重置日期1:#, 图标样式1:#tornado, 图标颜色1:#DF4688,机场名称2:#, 订阅链接2:#Encode后的订阅链接, 重置日期2:#, 图标样式2:#waveform, 图标颜色2:#EF6D20
-#!arguments-desc=可自定义参数：机场名称 图标样式 图标颜色                              订阅链接转换：https://www.urlencoder.org/zh
+#!arguments=机场名称1:#, 订阅链接1:#Encode后的订阅链接, 重置日期1:不需要设置, 图标样式1:#tornado, 图标颜色1:#DF4688,机场名称2:#, 订阅链接2:#Encode后的订阅链接, 重置日期2:不需要设置, 图标样式2:#waveform, 图标颜色2:#EF6D20
+#!arguments-desc=可自定义参数：机场名称 图标样式 图标颜色                              订阅链接转换：https://www.urlencoder.org/zh 
 
 [Panel]
 #手动输入面板
@@ -21,10 +19,10 @@
 {{{机场名称2}}} = script-name={{{机场名称2}}},update-interval=7200
 
 [Script]
-#1号机场 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/baiitang/Sakura/main/Surge/Js/Sub-info.js,script-update-interval=86400,argument=url=编码后的订阅链接&title=机场名字&reset_day=重置日期&icon=tornado&color=#DF4688
+#1号机场 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=86400,argument=url=编码后的订阅链接&title=机场名字&reset_day=重置日期&icon=tornado&color=#DF4688
 
-#2号机场 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/baiitang/Sakura/main/Surge/Js/Sub-info.js,script-update-interval=86400,argument=url=编码后的订阅链接&title=机场名字&reset_day=重置日期&icon=waveform&color=#EF6D20
+#2号机场 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=86400,argument=url=编码后的订阅链接&title=机场名字&reset_day=重置日期&icon=waveform&color=#EF6D20
 
-{{{机场名称1}}} = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/baiitang/Sakura/main/Surge/Js/Sub-info.js,script-update-interval=86400,argument=url={{{订阅链接1}}}&title={{{机场名称1}}}&reset_day={{{重置日期1}}}&icon={{{图标样式1}}}&color=#{{{图标颜色1}}}
+{{{机场名称1}}} = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=86400,argument=url={{{订阅链接1}}}&title={{{机场名称1}}}&reset_day={{{重置日期1}}}&icon={{{图标样式1}}}&color=#{{{图标颜色1}}}
 
-{{{机场名称2}}} = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/baiitang/Sakura/main/Surge/Js/Sub-info.js,script-update-interval=86400,argument=url={{{订阅链接2}}}&title={{{机场名称2}}}&reset_day={{{重置日期2}}}&icon={{{图标样式2}}}&color=#{{{图标颜色2}}}
+{{{机场名称2}}} = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=86400,argument=url={{{订阅链接2}}}&title={{{机场名称2}}}&reset_day={{{重置日期2}}}&icon={{{图标样式2}}}&color=#{{{图标颜色2}}}
