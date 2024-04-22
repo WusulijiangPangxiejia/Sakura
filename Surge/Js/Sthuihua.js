@@ -1,3 +1,6 @@
+#!薯条TF切换@Koxiu
+#薯条的TF账户管理boxjs会话切换脚本
+
 const $ = new Env('会话切换');
 $.KEY_sessions = 'chavy_boxjs_sessions';
 $.KEY_curSessions = 'chavy_boxjs_cur_sessions';
