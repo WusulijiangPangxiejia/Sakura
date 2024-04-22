@@ -2,6 +2,7 @@
 #!desc=流量信息/智能提醒/到期日期
 #!system=ios
 #!category=面板模块
+#!机场URL编码 https://www.urlencoder.org/zh
 #!面板图标 1、tornado&color=#DF4688 2、waveform&color=#EF6D20
 #!arguments=机场名称1:#, 订阅链接1:#Encode后的订阅链接, 重置日期1:#, 图标样式1:#tornado, 图标颜色1:#DF4688,机场名称2:#, 订阅链接2:#Encode后的订阅链接, 重置日期2:#, 图标样式2:#waveform, 图标颜色2:#EF6D20
 
