@@ -1,0 +1,35 @@
+#!name=脚本合集
+#!desc=更新时间 2024-04-10 10:38
+#!致谢 此模块的内容来着各位大佬的无偿分享，本人为了方便整理而引用，如果介意请联系我删除，谢谢
+
+#!使用声明：作者并未参与任何形式的金钱交易，仅限测试和学习，请勿转载与贩卖，下载使用后24小时请删除
+
+
+
+[URL Rewrite]
+# 贴吧去广告(>=iOS15)
+RULE-SET,https://raw.githubusercontent.com/app2smile/rules/master/rule/tieba-ad.list,REJECT-DROP
+
+
+
+[Map Local]
+
+
+[Script]
+# 贴吧去广告(>=iOS15)
+# hostname = %APPEND% tiebac.baidu.com
+# https://raw.githubusercontent.com/app2smile/rules/master/module/tieba.sgmodule
+贴吧json = type=http-response,pattern=^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/(c\/(s\/sync|f\/(frs\/(page|threadlist|generalTabList)|pb\/(pic)?page|excellent\/personalized))$|tiebaads\/commonbatch\?),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-json.js,script-update-interval=0
+贴吧proto = type=http-response,pattern=^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized)\?cmd,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-proto.js,script-update-interval=0
+
+#************************************#
+# Fimo-复古胶片相机@chxm1023
+# hostname = %APPEND% server.*.com
+# 解锁Vip 恢复胶卷
+# https://raw.githubusercontent.com/baiitang/Baitangbot/main/Surge/Module/Fimo.sgmodule
+fimo = type=http-response, pattern=^https:\/\/server\.(yoyiapp|zbisq)\.com, script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/fimo.js, requires-body=true, max-size=-1, timeout=60
+
+#************************************#
+
+[MITM]
+hostname = %APPEND% tiebac.baidu.com,server.*.com
