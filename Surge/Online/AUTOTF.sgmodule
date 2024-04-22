@@ -1,4 +1,4 @@
-#!name=公测监控
+#!name=TestFlight公测监控
 #!desc=监控TestFlight占位并关闭模块,仅兼容Surge
 #!source=https://raw.githubusercontent.com/githubdulong/Script/master/Surge/AUTOTF.sgmodule
 #!category=Third Party Module
