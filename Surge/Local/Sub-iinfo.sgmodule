@@ -20,10 +20,10 @@
 {{{机场名称2}}} = script-name={{{机场名称2}}},update-interval=7200
 
 [Script]
-#1号机场 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=86400,argument=url=编码后的订阅链接&title=机场名字&reset_day=重置日期&icon=tornado&color=#DF4688
+#1号机场 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/baiitang/Sakura/main/Surge/Js/Sub-info.js,script-update-interval=86400,argument=url=编码后的订阅链接&title=机场名字&reset_day=重置日期&icon=tornado&color=#DF4688
 
-#2号机场 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=86400,argument=url=编码后的订阅链接&title=机场名字&reset_day=重置日期&icon=waveform&color=#EF6D20
+#2号机场 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/baiitang/Sakura/main/Surge/Js/Sub-info.js,script-update-interval=86400,argument=url=编码后的订阅链接&title=机场名字&reset_day=重置日期&icon=waveform&color=#EF6D20
 
-{{{机场名称1}}} = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=86400,argument=url={{{订阅链接1}}}&title={{{机场名称1}}}&reset_day={{{重置日期1}}}&icon={{{图标样式1}}}&color=#{{{图标颜色1}}}
+{{{机场名称1}}} = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/baiitang/Sakura/main/Surge/Js/Sub-info.js,script-update-interval=86400,argument=url={{{订阅链接1}}}&title={{{机场名称1}}}&reset_day={{{重置日期1}}}&icon={{{图标样式1}}}&color=#{{{图标颜色1}}}
 
-{{{机场名称2}}} = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=86400,argument=url={{{订阅链接2}}}&title={{{机场名称2}}}&reset_day={{{重置日期2}}}&icon={{{图标样式2}}}&color=#{{{图标颜色2}}}
+{{{机场名称2}}} = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/baiitang/Sakura/main/Surge/Js/Sub-info.js,script-update-interval=86400,argument=url={{{订阅链接2}}}&title={{{机场名称2}}}&reset_day={{{重置日期2}}}&icon={{{图标样式2}}}&color=#{{{图标颜色2}}}
