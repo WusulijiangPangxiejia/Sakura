@@ -23,7 +23,6 @@ https://auth.alipan.com/v2/account/token
 yuchenios = type=http-request, pattern=^https:\/\/yuchen.tonghuaios.com\/users\?.+, script-path=https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/yuchenios.js, timeout=60
 
 # 定时任务及Cookie获取@MartinsKing
-B站每日任务 = type=cron,cronexp=30 7 * * *,script-path=https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js,wake-system=1,timeout=15
 B站Cookie(APP) = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/domain\?,script-path=https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js,requires-body=0
 B站Cookie(网页) = type=http-request,pattern=^https?:\/\/m\.bilibili\.com/$,script-path=https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js,requires-body=0
 
@@ -34,7 +33,6 @@ B站Cookie(网页) = type=http-request,pattern=^https?:\/\/m\.bilibili\.com/$,sc
 蜜雪冰城获取token = type=http-response, pattern=^https:\/\/mxsa\.mxbc\.net\/api\/v1\/customer\/info, script-path=https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js, requires-body=true, timeout=60
 
 # 获取微信小程序cookie@Sliverkiss
-🥤霸王茶姬小程序签到 = type=cron, cronexp="0 10 * * *", script-path=https://gist.githubusercontent.com/Sliverkiss/4984f7f34d6df8bcdd1e13ecac4bba51/raw/bwcj.js, timeout=300
 霸王茶姬获取token = type=http-request, pattern=^https:\/\/(webapi|qmwebapi)\.qmai\.cn\/web\/(catering|catering2-apiserver)\/crm\/points-info, script-path=https://gist.githubusercontent.com/Sliverkiss/4984f7f34d6df8bcdd1e13ecac4bba51/raw/bwcj.js, timeout=10
 
 
