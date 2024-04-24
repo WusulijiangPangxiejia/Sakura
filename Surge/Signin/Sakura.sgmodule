@@ -1,7 +1,7 @@
 #!name=获取Cookie合集
 #!desc=白糖自用获取Cookie信息
 
-#按下面配置完之后，打开阿里云盘获取token（如获取不到，等一段时间再打开），下面配置只验证过surge的，其他的自行测试
+#按下面配置完之后，打开相应的APP或小程序、网址获取token（如获取不到，等一段时间再打开），下面配置只验证过surge的，其他的自行测试
 #⚠️只测试过surge没有其他app自行测试
 
 #************************
@@ -9,14 +9,29 @@
 #************************
 
 [Script]
-# > 阿里云盘签到
+# 阿里云盘签到获取token@lowking
 https://auth.alipan.com/v2/account/token
 阿里云盘签到cookie = requires-body=1,type=http-response,pattern=https:\/\/auth.(aliyundrive|alipan).com\/v2\/account\/token,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
 阿里云盘签到 = type=cron,cronexp="0 10 0 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
 
-# 获取雨晨ios签到需要的各项参数
+# 获取雨晨ios签到需要的各项参数@Sliverkiss
 yuchenios = type=http-request, pattern=^https:\/\/yuchen.tonghuaios.com\/users\?.+, script-path=https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/yuchenios.js, timeout=60
+
+# 定时任务及Cookie获取@MartinsKing
+B站每日任务 = type=cron,cronexp=30 7 * * *,script-path=https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js,wake-system=1,timeout=15
+B站Cookie(APP) = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/domain\?,script-path=https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js,requires-body=0
+B站Cookie(网页) = type=http-request,pattern=^https?:\/\/m\.bilibili\.com/$,script-path=https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js,requires-body=0
+
+# 米其林轮胎签到@Sliverkiss
+米其林俱乐部token = type=http-request, pattern=^https:\/\/ulp\.michelin\.com\.cn\/bff\/profile, script-path=https://gist.githubusercontent.com/Sliverkiss/49c5d5176cad6e47919ffe058606ed0d/raw/michelin.js, timeout=10
+
+# 蜜雪冰城小程序签到@Sliverkiss
+蜜雪冰城获取token = type=http-response, pattern=^https:\/\/mxsa\.mxbc\.net\/api\/v1\/customer\/info, script-path=https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js, requires-body=true, timeout=60
+
+# 获取微信小程序cookie@Sliverkiss
+🥤霸王茶姬小程序签到 = type=cron, cronexp="0 10 * * *", script-path=https://gist.githubusercontent.com/Sliverkiss/4984f7f34d6df8bcdd1e13ecac4bba51/raw/bwcj.js, timeout=300
+霸王茶姬获取token = type=http-request, pattern=^https:\/\/(webapi|qmwebapi)\.qmai\.cn\/web\/(catering|catering2-apiserver)\/crm\/points-info, script-path=https://gist.githubusercontent.com/Sliverkiss/4984f7f34d6df8bcdd1e13ecac4bba51/raw/bwcj.js, timeout=10
 
 
 [MITM]
-hostname = %APPEND% auth.alipan.com, yuchen.tonghuaios.com
+hostname = %APPEND% auth.alipan.com, yuchen.tonghuaios.com, app.bilibili.com, m.bilibili.com, ulp.michelin.com.cn, mxsa.mxbc.net, qmwebapi.qmai.cn, webapi.qmai.cn
