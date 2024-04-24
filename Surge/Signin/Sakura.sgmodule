@@ -1,6 +1,9 @@
 #!name=获取Cookie合集
 #!desc=白糖自用获取Cookie信息
 
+#!arguments=AIRPORT_NAME1:#,AIRPORT_NAME2:#
+#!arguments-desc=AIRPORT_NAME1@lowking;AIRPORT_NAME2@Sliverkiss
+
 #按下面配置完之后，打开相应的APP或小程序、网址获取token（如获取不到，等一段时间再打开），下面配置只验证过surge的，其他的自行测试
 #⚠️只测试过surge没有其他app自行测试
 
@@ -11,8 +14,10 @@
 [Script]
 # 阿里云盘签到获取token@lowking
 https://auth.alipan.com/v2/account/token
-阿里云盘签到cookie = requires-body=1,type=http-response,pattern=https:\/\/auth.(aliyundrive|alipan).com\/v2\/account\/token,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
-阿里云盘签到 = type=cron,cronexp="0 10 0 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
+{{{AIRPORT_NAME1}}} = requires-body=1,type=http-response,pattern=https:\/\/auth.(aliyundrive|alipan).com\/v2\/account\/token,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
+
+# 阿里云盘签到获取token@Sliverkiss
+{{{AIRPORT_NAME2}}} = type=http-request, pattern=^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token, script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, requires-body=true, max-size=-1, timeout=60
 
 # 获取雨晨ios签到需要的各项参数@Sliverkiss
 yuchenios = type=http-request, pattern=^https:\/\/yuchen.tonghuaios.com\/users\?.+, script-path=https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/yuchenios.js, timeout=60
@@ -34,4 +39,4 @@ B站Cookie(网页) = type=http-request,pattern=^https?:\/\/m\.bilibili\.com/$,sc
 
 
 [MITM]
-hostname = %APPEND% auth.alipan.com, yuchen.tonghuaios.com, app.bilibili.com, m.bilibili.com, ulp.michelin.com.cn, mxsa.mxbc.net, qmwebapi.qmai.cn, webapi.qmai.cn
+hostname = %APPEND% auth.alipan.com, auth.aliyundrive.com, yuchen.tonghuaios.com, app.bilibili.com, m.bilibili.com, ulp.michelin.com.cn, mxsa.mxbc.net, qmwebapi.qmai.cn, webapi.qmai.cn
