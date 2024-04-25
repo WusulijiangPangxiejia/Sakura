@@ -1,5 +1,7 @@
 #!name=VVebo@suiyuran
 #!desc=修复vvebo 失效的用户时间线和我的页面
+#!source=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/VVebo_repair.plugin
+#!source-hub=http://script.hub/file/_start_/https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/VVebo_repair.plugin/_end_/VVebo_repair.sgmodule?n=%E2%9C%A8VVebo%40suiyuran%2B%E4%BF%AE%E5%A4%8Dvvebo%20%E5%A4%B1%E6%95%88%E7%9A%84%E7%94%A8%E6%88%B7%E6%97%B6%E9%97%B4%E7%BA%BF%E5%92%8C%E6%88%91%E7%9A%84%E9%A1%B5%E9%9D%A2&type=loon-plugin&target=surge-module&del=true
 #!author=suiyuran androidcn
 #!icon=https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/VVebo.png
 #!homepage=https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
