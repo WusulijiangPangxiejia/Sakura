@@ -1,5 +1,5 @@
 # 白糖自用EMBY分流
-# 公益服线路不能泄露，如果你不小心找到了，请自己用不要传播，公益服且用且珍惜
+# 公益服线路不能泄露，如果你不小心找到了，自己用请不要传播，公益服且用且珍惜
 # 本地分流规则(相同规则下，本地规则将覆盖远程规则，优先生效)↓↓↓↓↓↓↓↓↓
 #
 # 翻译解释Direct直连, Proxy代理, Reject拒绝
@@ -242,6 +242,10 @@ DOMAIN-SUFFIX,emby.slove.info
 #Emby-飞跃彩虹
 DOMAIN-SUFFIX,152.53.19.231
 
+#Emby-终·站
+DOMAIN-SUFFIX,joker1.top
+#IPV6线路
+#DOMAIN-SUFFIX,sss.889393.xyz
 
 #更新2.23 4.5 4.16
 
