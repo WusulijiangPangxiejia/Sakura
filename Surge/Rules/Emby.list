@@ -100,6 +100,8 @@ DOMAIN-SUFFIX,emby.kim
 DOMAIN-SUFFIX,ntrrr.am.sb
 DOMAIN-SUFFIX,stream.ntrrr.top
 DOMAIN-SUFFIX,stream.synn.cc.top
+# > 新增测试
+DOMAIN-SUFFIX,emby-ntr.han.bar
 
 #Emby-无敌风火轮
 DOMAIN-SUFFIX,ycxdy.top
@@ -209,6 +211,7 @@ DOMAIN-SUFFIX,api.apopcloud.me
 
 #Emby-StarCat-Flare
 DOMAIN-SUFFIX,flarex.starcat.eu.org
+DOMAIN-SUFFIX,catlinks.co.uk
 
 #Emby-TeCar
 DOMAIN-SUFFIX,emby.carlos.trade
