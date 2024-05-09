@@ -1,5 +1,5 @@
 #!name=TestFlight内测切换
-#!desc=点击左上角头像，快速切换TestFlight账号管理会话
+#!desc=点击左上角头像，快速切换TestFlight账号管理会话，下滑刷新
 #!author=VirgilClyne
 #!category=Third Party Module
 #!arguments=APPIDS:iRingo.TestFlight,ENGINE:auto
