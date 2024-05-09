@@ -1,5 +1,5 @@
 #!name=脚本合集@Baitang
-#!desc=更新时间 2024-04-20 12:30
+#!desc=更新时间 2024-04-20 12:30 Spotify VVebo WPS B站 小红书 彩云 贴吧 Fimo 阿里云盘 音流
 #!致谢 此模块的内容来着各位大佬的无偿分享，本人为了方便整理而引用，如果介意请联系我删除，谢谢
 
 #!使用声明：作者并未参与任何形式的金钱交易，仅限测试和学习，请勿转载与贩卖，下载使用后24小时请删除
@@ -13,7 +13,9 @@ RULE-SET,https://raw.githubusercontent.com/app2smile/rules/master/rule/tieba-ad.
 ^https?:\/\/app\.bilibili\.com\/x\/resource\/ip - reject
 # BiliBili_哔哩哔哩_屏蔽DefaultWord@ddgksf2013
 ^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Search\/Default - reject
-
+# 阿里云盘@ddgksf2013
+^https?:\/\/member\.(aliyundrive|alipan)\.com\/v1\/users\/onboard_list - reject
+^https?:\/\/api\.(aliyundrive|alipan)\.com\/adrive\/v2\/backup\/device - reject
 
 [Map Local]
 # BiliBili_哔哩哔哩_屏蔽广告浮窗@ddgksf2013
@@ -129,6 +131,27 @@ caiyun = type=http-request, pattern=^https?:\/\/(api|wrapper)\.(cyapi|caiyunapp)
 fimo = type=http-response, pattern=^https:\/\/server\.(yoyiapp|zbisq)\.com, script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/fimo.js, requires-body=true, max-size=-1, timeout=60
 
 #************************************#
+# 阿里云盘@ddgksf2013
+# hostname = %APPEND% api.alipan.com, member.aliyundrive.com, member.alipan.com, api.aliyundrive.com
+# 净化界面 解锁本地会员功能[倍速、码率]
+# https://raw.githubusercontent.com/baiitang/Sakura/main/Surge/Module/Alicloud.sgmodule
+alicloud = type=http-response, pattern=^https?:\/\/api\.(aliyundrive|alipan)\.com\/business\/v1\.1\/users\/me\/vip\/info, script-path=https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/raw/alicloud.js, requires-body=true, max-size=-1, timeout=60
+alicloud = type=http-response, pattern=^https?:\/\/member\.(aliyundrive|alipan)\.com\/v1\/users\/tools, script-path=https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/raw/alicloud.js, requires-body=true, max-size=-1, timeout=60
+alicloud = type=http-response, pattern=^https?:\/\/member\.(aliyundrive|alipan)\.com\/v1\/users\/me, script-path=https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/raw/alicloud.js, requires-body=true, max-size=-1, timeout=60
+alicloud = type=http-response, pattern=^https?:\/\/api\.(aliyundrive|alipan)\.com\/business\/v1\.0\/users\/vip\/info, script-path=https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/raw/alicloud.js, requires-body=true, max-size=-1, timeout=60
+alicloud = type=http-response, pattern=^https?:\/\/api\.(aliyundrive|alipan)\.com\/business\/v1\.0\/users\/feature\/list, script-path=https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/raw/alicloud.js, requires-body=true, max-size=-1, timeout=60
+alicloud = type=http-response, pattern=^https?:\/\/api\.(aliyundrive|alipan)\.com\/apps\/v2\/users\/home\/widgets, script-path=https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/raw/alicloud.js, requires-body=true, max-size=-1, timeout=60
+alicloud = type=http-response, pattern=^https?:\/\/user\.(aliyundrive|alipan)\.com\/v2\/user\/get, script-path=https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/raw/alicloud.js, requires-body=true, max-size=-1, timeout=60
+alicloud = type=http-response, pattern=^https?:\/\/member\.(aliyundrive|alipan)\.com\/v2\/activity\/sign_in_info, script-path=https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/raw/alicloud.js, requires-body=true, max-size=-1, timeout=60
+
+#************************************#
+# 音流@osinx
+# hostname = %APPEND% pay.aqzscn.cn
+# 永久解锁VIP，支付宝订单号任意输入恢复购买
+# https://raw.githubusercontent.com/baiitang/Baitangbot/main/Surge/Module/Yinliu.sgmodule
+音流解锁VIP = type=http-response, pattern=^https:\/\/pay\.aqzscn\.cn\/api\/v1\/payments\/, script-path=https://raw.githubusercontent.com/osinx/Script/main/vip/streamMusic.js, requires-body=true
+
+#************************************#
 
 [MITM]
-hostname = %APPEND% spclient.wg.spotify.com, api.weibo.cn, *.wps.cn, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, app.bilibili.com, api.live.bilibili.com, *.bilibili.com, *.bili*.*, *.bilibili.*, grpc.biliapi.net, *biliapi.net, tiebac.baidu.com, edith.xiaohongshu.com, www.xiaohongshu.com, pages.xiaohongshu.com, referee.xiaohongshu.com, server.*.com, *.cyapi.cn, *.caiyunapp.com
+hostname = %APPEND% spclient.wg.spotify.com, api.weibo.cn, *.wps.cn, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, app.bilibili.com, api.live.bilibili.com, *.bilibili.com, *.bili*.*, *.bilibili.*, grpc.biliapi.net, *biliapi.net, tiebac.baidu.com, edith.xiaohongshu.com, www.xiaohongshu.com, pages.xiaohongshu.com, referee.xiaohongshu.com, server.*.com, *.cyapi.cn, *.caiyunapp.com, api.alipan.com, member.aliyundrive.com, member.alipan.com, api.aliyundrive.com, pay.aqzscn.cn
