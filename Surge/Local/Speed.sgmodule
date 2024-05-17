@@ -1,6 +1,6 @@
 #!name=网络测速
 #!desc=花里胡哨才是生产力 测试网络下载速度、延迟并根据速度和延迟
-#!arguments=面板名称1:网络测速,NetSpeed1:#不花里胡哨版,面板名称2:网络测速,NetSpeed2:#花里胡哨版
+#!arguments=面板名称1:网速测速,NetSpeed1:#不花里胡哨版,面板名称2:网络测速NetSpeed2:#花里胡哨版
 #!arguments-desc=启用对应的版本请将#删除，输入“启用”\n要关闭面板请在XX版输入#，或者在启用前加#
 #!auther=@xream @wuhu_zzz @keywos @整点猫咪 技术指导：整点薯条
 #!source=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Net_Speed/Net_Speed.sgmodule
@@ -25,6 +25,6 @@
 {{{NetSpeed2}}} = script-name={{{NetSpeed2}}},update-interval=-1
 
 [Script]
-{{{NetSpeed1}}} = type=generic,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Net_Speed/Net_Speed.js,argument=titile={{{面板名称1}}}&icon=hare&icon-color=#CDCDCD
+{{{NetSpeed1}}} = type=generic,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Net_Speed/Net_Speed.js,argument=title={{{面板名称1}}}&icon=hare&icon-color=#CDCDCD
 
 {{{NetSpeed2}}} = type=generic,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Net_Speed/Net_Speed.js,argument=title={{{面板名称2}}}&iconfast=bolt&iconmid=hare&iconslow=tortoise&colorlow=#06D6A0&colormid=#FFD166&colorhigh=#EF476F&mb=3
