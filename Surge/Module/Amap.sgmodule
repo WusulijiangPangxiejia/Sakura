@@ -18,7 +18,7 @@
 ^https?:\/\/.*\.amap\.com\/ws\/shield\/scene\/recommend data-type=text data="{}" status-code=200
 
 # > 高德地图_首页左上角gif@ddgksf2013
-^https?:\/\/.*\.amap\.com\/uploadimg\/\w+\.gif data-type=tiny-gif status-code=200
+# ^https?:\/\/.*\.amap\.com\/uploadimg\/\w+\.gif data-type=tiny-gif status-code=200
 
 # > 高德地图_左下天气@ddgksf2013
 ^https?:\/\/.*\.amap\.com\/ws\/valueadded\/weather data-type=text data="{}" status-code=200
