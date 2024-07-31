@@ -10,6 +10,8 @@
 
 # ACA节点能用的服标注 #TeCar特卡 #垃圾影音 #HXD好兄弟 #纸片人 #放映厅 #MJJ #Charontv卡戎
 
+# 部分直连Emby我也添加了，不想直连走代理、嫌弃切换策略麻烦的用户可以添加本地规则
+
 # 本地分流规则(相同规则下，本地规则将覆盖远程规则，优先生效)↓↓↓↓↓↓↓↓↓
 
 # > ↓↓↓↓↓↓↓↓↓（Emby影视的分流）↓↓↓↓↓↓↓↓↓
@@ -18,6 +20,13 @@ DOMAIN-SUFFIX,misakaf.org
 DOMAIN-SUFFIX,emby.misakaf.org
 DOMAIN-SUFFIX,102.223.180.108
 DOMAIN-SUFFIX,push-kr.misakaf.org
+
+#Emby-Odyssey+
+DOMAIN-SUFFIX,cf.odysseyplus
+DOMAIN-SUFFIX,v.odysseyplus
+DOMAIN-SUFFIX,us.odysseyplus
+DOMAIN-SUFFIX,kr.odysseyplus
+DOMAIN-SUFFIX,jp.odysseyplus
 
 #Emby-PiliPili
 DOMAIN-SUFFIX,emby.pilipiliultra.top 
@@ -171,7 +180,7 @@ DOMAIN-SUFFIX,v.20120714.xyz
 #Emby-卡戎
 DOMAIN-SUFFIX,play.charontv.com
 
-#Emby-MICU Cloud Media
+#Emby-MICU Cloud Media直连
 DOMAIN-SUFFIX,tv.micu.hk
 
 #Emby-Lyrebird琴鸟
@@ -265,7 +274,31 @@ DOMAIN-SUFFIX,su.viclub.top
 #Emby-放映厅
 DOMAIN-SUFFIX,emby.9191001.xyz
 
-#更新2.23 4.5 4.16 5.18 6.2
+#Emby-Free
+DOMAIN-SUFFIX,emby.intel.im
+
+#Emby-坟坝
+DOMAIN-SUFFIX,emby.yk83.bf
+
+#Emby-Plumber
+DOMAIN-SUFFIX,emby.tiancheng.cf
+
+#更新2.23 4.5 4.16 5.18 6.2 7.11
+
+
+# > ↓↓↓↓↓↓↓↓↓（Emby直连服的分流）↓↓↓↓↓↓↓↓↓
+#Emby-AlphaTV（直连）
+DOMAIN-SUFFIX,alphatvapp
+
+#Emby-Magpie（直连）
+DOMAIN-SUFFIX,magpie
+
+#Emby-Baisi（直连）
+DOMAIN-SUFFIX,baisi.pro
+
+#Emby-地平线（直连）
+DOMAIN-SUFFIX,dpx1.1110111
+
 
 # > ↓↓↓↓↓↓↓↓↓（Emby机场服的分流）↓↓↓↓↓↓↓↓↓
 #Emby-HXD（好鸭机场服）
@@ -291,9 +324,17 @@ DOMAIN-SUFFIX,tv.ash.yt
 DOMAIN-SUFFIX,emby.eggtartcloud.shop
 DOMAIN-SUFFIX,vip3.jellyfin.asia
 
+#Emby-Free（Free Cloud）
+DOMAIN-SUFFIX,emby.intel.im
 
 # > ↓↓↓↓↓↓↓↓↓（Emby音乐的分流）↓↓↓↓↓↓↓↓↓
 #Paul-电报服
 DOMAIN-SUFFIX,chunmusic.imetyou.top
 DOMAIN-SUFFIX,music.imetyou.top
 DOMAIN-SUFFIX,cfmusic.imetyou.top
+
+#飞跃星空音乐服
+DOMAIN-SUFFIX,6666666.buzz
+
+#未响音乐服
+DOMAIN-SUFFIX,music.mefun.org
