@@ -41,7 +41,7 @@ DOMAIN,free-aos-cdn-image.amap.com,REJECT
 
 [Script]
 # 移除阿里巴巴通用广告请求
-移除阿里巴巴通用广告请求 = type=http-response, pattern=^http:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch$, script-path=https://raw.githubusercontent.com/WusulijiangPangxiejia/Sakura/main/Surge/Js/Alibaba_amdc_reject.js, tag = 移除阿里巴巴通用广告请求
+移除阿里巴巴通用广告请求 = type=http-response, pattern=^http:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch$, script-path=https://raw.githubusercontent.com/WusulijiangPangxiejia/Sakura/main/Surge/Js/Alibaba_amdc_reject.js, requires-body=true, max-size=-1, timeout=60 ,tag = 移除阿里巴巴通用广告请求
 
 # 导航详情页 - 路线规划、地点详情页、搜索详情页、导航结束页
 移除导航详情页扰人组件 = type=http-response, pattern=^https:\/\/m5\.amap\.com\/ws\/perception\/drive\/(routeInfo|routePlan)\?, script-path=https://raw.githubusercontent.com/WusulijiangPangxiejia/Sakura/main/Surge/Js/Amap_remove_ads.js, requires-body=true
